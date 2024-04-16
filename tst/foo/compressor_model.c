@@ -215,7 +215,6 @@ void compressor_model_test(void)
 	printf("COE_S = %f: \r\n", COE_S);
 	printf("\r\n");
 	printf("\r\n");
-	printf("kkkk\r\n");
 
 
 	volume_flow_rate = cal_volume_flow_rate(Pd, Ps, CompSpeed);

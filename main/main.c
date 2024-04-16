@@ -6,7 +6,6 @@ int main()
 	int a, b;
 	a = 9;
 	b = 10;
-	printf("hello world");
     compressor_model_test();
     // refrig_prop_test();
     // sensor_pre_test();
