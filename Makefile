@@ -2,7 +2,7 @@
 #指定生成的终极目录文件
 TGT = a.out
 #指定子目录（生成a.out只会依赖于这些目录）
-SUB_DIR = main tst
+SUB_DIR = main tst algorithm tool
 
 #指定子目标
 export SUB_TGT = built-in.o
