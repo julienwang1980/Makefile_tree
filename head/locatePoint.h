@@ -56,27 +56,28 @@ typedef struct {
 
 //-------------------------------------------------------------------------
 /**
- * \fn			
+ * \fn int locatePoint_4(Point points[], double location[3]);
  *
- * \brief		
+ * \brief This function takes an array of points and a location and returns the index of the point that is closest to the location.
  *
- * \param[in]	
+ * \param points is an array of points
  *
- * \return		
+ * \return location is the location to compare against.	
 */
 //-------------------------------------------------------------------------
 unknownPoint locatePoint_3(Point_3 *points);
 
 //-------------------------------------------------------------------------
 /**
- * \fn			
+ * \fn int locatePoint_4(Point points[], double location[3]);
  *
- * \brief		
+ * \brief This function takes an array of points and a location and returns the index of the point that is closest to the location.
  *
- * \param[in]	
+ * \param points is an array of points
+ * \param location is the location to compare against
  *
- * \return		
-*/
+ * \return The index of the point that is closest to the location, or -1 if there are no points in the array.
+ */
 //-------------------------------------------------------------------------
 int locatePoint_4(Point_4 points[], double location[3]);
 

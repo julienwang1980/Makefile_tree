@@ -25,8 +25,8 @@
 
 //-------------------------------------------------------------------------
 /**
- * \enum	
- * \brief	
+ * \enum PARITY
+ * \brief Serial check mode
  */
 //-------------------------------------------------------------------------
 enum PARITY
@@ -36,8 +36,8 @@ enum PARITY
 
 //-------------------------------------------------------------------------
 /**
- * \struct	
- * \brief	
+ * \struct Serial
+ * \brief the parameters of the serial
  */
 //-------------------------------------------------------------------------
 typedef struct
@@ -53,27 +53,29 @@ typedef struct
 
 //-------------------------------------------------------------------------
 /**
- * \fn			
+ * \fn init Serial_init(Serial serial);
  *
- * \brief		
+ * \brief Open and initialize serial port parameters
  *
- * \param[in]	
+ * \param serial parameters of the serial
  *
- * \return		
-*/
+ * \return file descriptor of the serial port, or -1 if invalid
+ */
 //-------------------------------------------------------------------------
 int Serial_init(Serial serial);
 
 
 //-------------------------------------------------------------------------
 /**
- * \fn ;
+ * \fn int Serial_read(Serial serial, char *buffer, int size);
  *
- * \brief 
+ * \brief read data from the serial port and return the number of bytes read
  *
- * \param 
+ * \param serial Serial to read from the serial port.
+ * \param buffer Buffer to save the data.
+ * \param size Number of bytes to read.
  *
- * \return 
+ * \return the number of bytes.
  */
 //-------------------------------------------------------------------------
 int Serial_read(Serial serial, char *buffer, int size);
@@ -81,11 +83,13 @@ int Serial_read(Serial serial, char *buffer, int size);
 
 //-------------------------------------------------------------------------
 /**
- * \fn ;
+ * \fn int Serial_write(Serial serial, char *buffer, int size);
  *
- * \brief 
+ * \brief write data to the serial port and return the number of bytes written
  *
- * \param 
+ * \param serial Serial to write from the serial port.
+ * \param buffer the data to write.
+ * \param size Number of bytes to write.
  *
  * \return 
  */
@@ -94,5 +98,5 @@ int Serial_write(Serial serial, char *buffer, int size);
 
 
 
-void Serial_stes(void);
+void Serial_test(void);
 #endif                                      // re-include guard

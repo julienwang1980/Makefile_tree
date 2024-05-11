@@ -21,9 +21,9 @@
  *
  * \brief Sleep for the requested number of milliseconds.
  *
- * \param 
+ * \param msec the number of milliseconds to sleep
  *
- * \return 
+ * \return the result of sleep
  */
 //-------------------------------------------------------------------------
 int msleep(long msec)
