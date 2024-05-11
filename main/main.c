@@ -13,7 +13,7 @@ int main()
 	// printf("sum is:%f\r\n", x2x(a, b));
 	test();
 
-	Serial_stes();
+	Serial_test();
 	return 0;
 }
 
