@@ -3,7 +3,7 @@
 /**
  * \file		
  *
- * \brief		
+ * \brief		计算空间某个点的定位
  *
  * \copyright	
  *
@@ -18,7 +18,7 @@
 
 //-------------------------------------------------------------------------
 /**
- * \fn int locatePoint_4(Point points[], double location[3]);
+ * \fn unknownPoint locatePoint_3(Point_3 *points);
  *
  * \brief This function takes an array of points and a location and returns the index of the point that is closest to the location.
  *

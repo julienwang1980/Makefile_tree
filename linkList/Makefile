@@ -1,6 +1,6 @@
 #子Makefile：用来告诉make如何生成当前目录下的子目标
 
-SRCS = main.c
+SRCS = singlyLinkList_enterprise.c
 SUB_DIR = 
 
 LD ?= $(CC)

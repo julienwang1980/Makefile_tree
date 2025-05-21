@@ -3,7 +3,7 @@
 /**
  * \file		
  *
- * \brief		
+ * \brief		串口的控制
  *
  * \copyright	
  *
