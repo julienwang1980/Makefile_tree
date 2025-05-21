@@ -1,5 +1,5 @@
 #include "stdio.h"
-#include "seqStack.h"
+#include "sort.h"
 int main()
 {
 	test();
