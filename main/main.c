@@ -1,5 +1,6 @@
 #include "stdio.h"
-#include "sort.h"
+#include "binaryNode.h"
+
 int main()
 {
 	test();
